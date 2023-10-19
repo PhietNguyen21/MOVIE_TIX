@@ -1,0 +1,18 @@
+{
+    "dataRate": [
+        {
+            "hoTen": "Nguyen Van Phiet",
+            "email": "phietNguyen321@gmail.com",
+            "binhLuan": "Phim hay",
+            "rate": 8,
+            "dateTime": "2 month ago"
+        },
+        {
+            "hoTen": "Nguyen Ngoc Phat",
+            "email": "phatNguyen321@gmail.com",
+            "binhLuan": "Phim khong hay",
+            "rate": 5,
+            "dateTime": "3 month ago"
+        }
+    ]
+}

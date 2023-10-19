@@ -1,0 +1,22 @@
+{
+    "header": {
+        "Home": "Home",
+        "Contact": "Contact",
+        "News": "News",
+        "UngDung": "App"
+    },
+    "body": {
+        "DangChieu": "Movie is showing",
+        "SapChieu": "Movie coming soon",
+        "ChonPhim": "Select movie",
+        "ChonRap": " Select theater system",
+        "ChonCumRap": "Select multiplexes",
+        "ChonLich": "Select calendar",
+        "ChonSuat": "Select screening time",
+        "MuaVeNgay": "Buy tickets now"
+    },
+    "thongTinTk": "Account information",
+    "Dangxuat": "Log out",
+    "Sign in": "Sign in",
+    "Sign up": "Sign up"
+}

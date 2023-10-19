@@ -1,0 +1,102 @@
+.slick-prev:before,
+.slick-next:before {
+    color: #ff8a65 !important;
+    font-size: 2.6rem !important;
+    background-color: transparent !important;
+    /* z-index: 10; */
+}
+
+.slick-prev:before {
+    position: absolute;
+    left: -100%;
+}
+
+.item-width {
+    width: 100% !important;
+}
+
+.active-btn {
+    background-color: black !important;
+    color: white;
+}
+.none-active-btn {
+    background-color: white;
+    color: black;
+}
+
+/* CSS */
+.btn-muaVe {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: linear-gradient(to bottom right, #ef4765, #ff9a5a);
+    border: 0;
+    border-radius: 8px;
+    height: 46px;
+
+    /* border-radius: 12px; */
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    outline: transparent;
+    padding: 0rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+.btn-muaVeDis {
+    background: #b0b0b0 !important;
+}
+.btn-muaVe:not([disabled]):focus {
+    box-shadow:
+        0 0 0.25rem rgba(0, 0, 0, 0.5),
+        -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+        0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-muaVe:not([disabled]):hover {
+    box-shadow:
+        0 0 0.25rem rgba(0, 0, 0, 0.5),
+        -0.125rem -0.125rem 1rem rgba(239, 71, 101, 0.5),
+        0.125rem 0.125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-muaVes {
+    cursor: no-drop;
+}
+
+.listFormControl {
+    width: 100%;
+    bottom: 0;
+    height: 83px;
+    margin: auto;
+    transform: translateY(-100%);
+    max-width: 940px;
+    padding: 0 20px;
+    padding-top: 25px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    align-items: center;
+    border-radius: 5px;
+
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .listFormControl {
+        display: none !important;
+    }
+    .btn-muaVe {
+        display: none !important;
+    }
+}
